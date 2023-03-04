@@ -1,0 +1,87 @@
+.slack__img {
+    display: flex;
+    height: 40px;
+    justify-content: start;
+    padding: 5%;
+
+}
+
+.lista {
+    font-weight: 1000;
+    border-bottom: 2px solid #dfcaca;
+    margin-bottom: 15px;
+   
+
+    .lista__flechas{
+        margin-bottom: 15px;
+        
+        
+        li{
+            
+            line-height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            
+        }
+        span{
+            letter-spacing: 0.2px;
+            font-size: 16px;
+        }
+    }
+}
+
+
+.lista2 {
+    font-weight: 1000;
+    line-height: 40px;
+    
+
+    .lista__flechas2{
+        
+        
+        li{
+            line-height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            letter-spacing: 0.2px;
+            font-size: 13px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    }
+}
+
+.iconitos{
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: 0 auto;
+
+
+    li img{
+        margin-top: 15px;
+        width: 15px;
+        height: auto;
+        }
+    }
+}
+
+.finaltext1{
+
+    p{
+        padding: 4%;
+        font-size: 12px;
+        color: #7a7171;
+    }
+}

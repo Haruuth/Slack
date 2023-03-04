@@ -1,0 +1,528 @@
+* html, * body, * div, * span, * applet, * object, * iframe,
+* h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
+* a, * abbr, * acronym, * address, * big, * cite, * code,
+* del, * dfn, * em, * img, * ins, * kbd, * q, * s, * samp,
+* small, * strike, * strong, * sub, * sup, * tt, * var,
+* b, * u, * i, * center,
+* dl, * dt, * dd, * ol, * ul, * li,
+* fieldset, * form, * label, * legend,
+* table, * caption, * tbody, * tfoot, * thead, * tr, * th, * td,
+* article, * aside, * canvas, * details, * embed,
+* figure, * figcaption, * footer, * header, * hgroup,
+* menu, * nav, * output, * ruby, * section, * summary,
+* time, * mark, * audio, * video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* article, * aside, * details, * figcaption, * figure,
+* footer, * header, * hgroup, * menu, * nav, * section {
+  display: block;
+}
+* body {
+  line-height: 1;
+}
+* ol, * ul {
+  list-style: none;
+}
+* blockquote, * q {
+  quotes: none;
+}
+* blockquote:before, * blockquote:after,
+* q:before, * q:after {
+  content: "";
+  content: none;
+}
+* table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  display: flex;
+  margin-left: 20px;
+}
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+header {
+  background-color: #4a154b;
+  overflow: hidden;
+}
+
+.text_header {
+  color: white;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 2%;
+  text-align: center;
+}
+.text_header span {
+  color: #ecb22e;
+}
+
+.p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.botones {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  gap: 4px;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 900;
+}
+.botones .correo {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 95%;
+  height: 55px;
+}
+.botones .google {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/nuevo-logo-google.jpeg);
+  background-repeat: no-repeat;
+  background-color: white;
+  color: rgb(255, 255, 255);
+  width: 95%;
+  height: 55px;
+  background-size: contain;
+  background-color: #4285F4;
+}
+
+.video {
+  max-width: 100%;
+  padding: 20px 20px 0;
+}
+.video video {
+  overflow-x: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  justify-items: center;
+  max-width: 180vw;
+}
+
+.container__cuerpo {
+  background-color: antiquewhite;
+  overflow-x: hidden;
+}
+
+.text_body {
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+  padding: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  overflow: hidden;
+}
+
+.logos_cuerpo {
+  padding: 10%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.logos_cuerpo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-direction: row;
+  width: 100px;
+  height: auto;
+}
+.logos_cuerpo .newyork img {
+  width: 200px;
+}
+
+.text_uno {
+  padding: 7%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.text_uno h3 {
+  font-weight: 1000;
+  font-size: 25px;
+}
+.text_uno p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.text_uno a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.text_dos {
+  padding: 7%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+.text_dos h3 {
+  font-weight: 1000;
+  font-size: 25px;
+}
+.text_dos p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.text_dos a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.text_tres {
+  padding: 7%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+.text_tres h3 {
+  font-weight: 1000;
+  font-size: 25px;
+}
+.text_tres p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.text_tres a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.text_body2 {
+  padding: 7%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 29px;
+  text-align: center;
+}
+.text_body2 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 8px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 6%;
+}
+
+.botones2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8%;
+}
+.botones2 .empresas {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #782387;
+  color: rgb(255, 255, 255);
+  width: 95%;
+  height: 55px;
+}
+.botones2 .ventas {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 95%;
+  height: 55px;
+  box-shadow: inset 0 0 0 2px #782387;
+}
+
+.bestpercentages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.bestpercentages h3 {
+  font-size: 50px;
+  margin-bottom: 6%;
+  color: #782387;
+}
+.bestpercentages p {
+  font-size: 15px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.ultimovideo {
+  overflow-x: hidden;
+  margin-bottom: 30px;
+}
+.ultimovideo iframe {
+  max-width: 98%;
+  max-height: 200px;
+  font-size: 40px;
+  text-align: center;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  text-align: justify;
+}
+.tarjeta .parrafito {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 10px;
+}
+.tarjeta .parrafito p {
+  text-align: center;
+  font-style: italic;
+  line-height: 1.44;
+  text-align: justify;
+  letter-spacing: 0.2px;
+}
+
+#tarjeta2 {
+  margin-left: 20px;
+}
+#tarjeta2 h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  text-align: justify;
+}
+#tarjeta2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#tarjeta2 a {
+  text-decoration: none;
+}
+#tarjeta2 .peque {
+  color: rgb(79, 73, 73);
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 2%;
+}
+
+.tarjeta3 {
+  padding-bottom: 70px;
+  background-color: antiquewhite;
+  padding-top: 5%;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+.tarjeta3 h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+.tarjeta3 .tarjeta_slack {
+  padding: 0 50px 0 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tarjeta3 .tarjeta_slack .fondo {
+  background-color: white;
+  text-align: left;
+  padding: 3%;
+  max-width: 100%;
+}
+.tarjeta3 .tarjeta_slack .fondo p {
+  font-size: 13px;
+  color: #605c61;
+}
+.tarjeta3 .tarjeta_slack .fondo .textop2 {
+  font-size: 22px;
+  margin-top: 8px;
+  color: black;
+  text-align: start;
+  margin-bottom: 70px;
+}
+.tarjeta3 .tarjeta_slack .fondo a {
+  display: flex;
+  text-decoration: none;
+  font-size: 13px;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.tarjeta3 .tarjeta_slack img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline-block;
+  background-color: white;
+  padding: 5%;
+}
+
+.container2 {
+  background-color: #5b1867;
+  border-bottom-left-radius: 150px 50px;
+  border-bottom-right-radius: 150px 50px;
+  max-width: 100%;
+}
+
+.tarjeta4 {
+  padding: 10%;
+}
+.tarjeta4 h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.tarjeta4 .botones3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8%;
+}
+.tarjeta4 .botones3 .gratis {
+  border-radius: 5px;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  color: #782387;
+  width: 95%;
+  height: 55px;
+}
+.tarjeta4 .botones3 .ventas2 {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  width: 95%;
+  box-shadow: inset 0 0 0 2px white;
+  height: 55px;
+}
+
+.slack__img {
+  display: flex;
+  height: 40px;
+  justify-content: start;
+  padding: 5%;
+}
+
+.lista {
+  font-weight: 1000;
+  border-bottom: 2px solid #dfcaca;
+  margin-bottom: 15px;
+}
+.lista .lista__flechas {
+  margin-bottom: 15px;
+}
+.lista .lista__flechas li {
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.lista .lista__flechas span {
+  letter-spacing: 0.2px;
+  font-size: 16px;
+}
+
+.lista2 {
+  font-weight: 1000;
+  line-height: 40px;
+}
+.lista2 .lista__flechas2 li {
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+.lista2 .lista__flechas2 a {
+  text-decoration: none;
+}
+
+.iconitos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.iconitos ul li img {
+  margin-top: 15px;
+  width: 15px;
+  height: auto;
+}
+
+.finaltext1 p {
+  padding: 4%;
+  font-size: 12px;
+  color: #7a7171;
+}/*# sourceMappingURL=style.css.map */
